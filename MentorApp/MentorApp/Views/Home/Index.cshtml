@@ -1,0 +1,246 @@
+﻿@{
+    ViewBag.Title = "Index";
+}
+@model HomeVM
+
+<section id="hero" class="d-flex justify-content-center align-items-center">
+    <div class="container position-relative" data-aos="zoom-in" data-aos-delay="100">
+        @foreach (var item in Model.Heroes)
+        {
+            <h1>@Html.Raw(item.Title)</h1>
+            <h2>@item.Content</h2>
+            <a href="courses.html" class="btn-get-started">Get Started</a>
+        }
+
+    </div>
+</section><!-- End Hero -->
+<!-- ======= About Section ======= -->
+<section id="about" class="about">
+    <div class="container" data-aos="fade-up">
+
+        <div class="row">
+            
+            <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-left" data-aos-delay="100">
+                <img src="~/assets/img/@Model.About.ImgSrc" class="img-fluid" alt="">
+            </div>
+            <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
+                <h3>@Model.About.Title</h3>
+                <p class="fst-italic">
+                    @Model.About.Content
+                </p>
+                <ul>
+                    @foreach (var item in Model.About.AboutContidions)
+                    {
+                        <li>@Html.Raw(item.Content)</li>
+                    }
+
+                </ul>
+                <p>
+                    @Model.About.Info
+                </p>
+
+            </div>
+        </div>
+
+    </div>
+</section><!-- End About Section -->
+<!-- ======= Counts Section ======= -->
+<section id="counts" class="counts section-bg">
+    <div class="container">
+
+        <div class="row counters">
+
+            <div class="col-lg-3 col-6 text-center">
+                <span data-purecounter-start="0" data-purecounter-end="1232" data-purecounter-duration="1" class="purecounter"></span>
+                <p>Students</p>
+            </div>
+
+            <div class="col-lg-3 col-6 text-center">
+                <span data-purecounter-start="0" data-purecounter-end="64" data-purecounter-duration="1" class="purecounter"></span>
+                <p>Courses</p>
+            </div>
+
+            <div class="col-lg-3 col-6 text-center">
+                <span data-purecounter-start="0" data-purecounter-end="42" data-purecounter-duration="1" class="purecounter"></span>
+                <p>Events</p>
+            </div>
+
+            <div class="col-lg-3 col-6 text-center">
+                <span data-purecounter-start="0" data-purecounter-end="15" data-purecounter-duration="1" class="purecounter"></span>
+                <p>Trainers</p>
+            </div>
+
+        </div>
+
+    </div>
+</section><!-- End Counts Section -->
+<!-- ======= Why Us Section ======= -->
+<section id="why-us" class="why-us">
+    <div class="container" data-aos="fade-up">
+
+        <div class="row">
+            <div class="col-lg-4 d-flex align-items-stretch">
+                <div class="content">
+                    <h3>@Model.Why_Us.Title</h3>
+                    <p>
+                        @Model.Why_Us.Content
+                    </p>
+                    <div class="text-center">
+                        <a href="about.html" class="more-btn">Learn More <i class="bx bx-chevron-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-8 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+                <div class="icon-boxes d-flex flex-column justify-content-center">
+                    <div class="row">
+                        @foreach (var item in Model.IconBoxes)
+                        {
+                            <div class="col-xl-4 d-flex align-items-stretch">
+                                <div class="icon-box mt-4 mt-xl-0">
+                                    @Html.Raw(item.Icon)
+                                    <h4>@item.Title</h4>
+                                    <p>@item.Content</p>
+                                </div>
+                            </div>
+                        }
+
+                    </div>
+                </div><!-- End .content-->
+            </div>
+        </div>
+
+    </div>
+</section><!-- End Why Us Section -->
+<!-- ======= Features Section ======= -->
+<section id="features" class="features">
+    <div class="container" data-aos="fade-up">
+
+        <div class="row" data-aos="zoom-in" data-aos-delay="100">
+            @foreach (var item in Model.Features)
+            {
+                <div class="col-lg-3 col-md-4">
+                    <div class="icon-box">
+                        @Html.Raw(item.Icon)
+                        <h3><a href="">@item.Content</a></h3>
+                    </div>
+                </div>
+            }
+
+           
+        </div>
+
+    </div>
+</section><!-- End Features Section -->
+<!-- ======= Popular Courses Section ======= -->
+<section id="popular-courses" class="courses">
+    <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+            <h2>Courses</h2>
+            <p>Popular Courses</p>
+        </div>
+
+        <div class="row" data-aos="zoom-in" data-aos-delay="100">
+            @foreach (var item in Model.Courses)
+            {
+                <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
+                    <div class="course-item">
+                        <img src="~/assets/img/@item.ImgSrc" class="img-fluid" alt="...">
+                        <div class="course-content">
+                            <div class="d-flex justify-content-between align-items-center mb-3">
+                                <h4>@item.Name</h4>
+                                <p class="price">$@item.Price</p>
+                            </div>
+
+                            @foreach (var trainer in item.CourseTrainers)
+                            {
+                                    
+                                <h3><a href="course-details.html">@trainer.Trainer.Work</a></h3>
+                                <p>@trainer.Trainer.Content</p>
+                                <div class="trainer d-flex justify-content-between align-items-center">
+                                    <div class="trainer-profile d-flex align-items-center">
+                                        <img src="~/assets/img/trainers/@trainer.Trainer.ImgSrc" class="img-fluid" alt="">
+                                        <span>@trainer.Trainer.Name</span>
+                                    </div>
+                                    <div class="trainer-rank d-flex align-items-center">
+                                        <i class="bx bx-user"></i>&nbsp;@trainer.Trainer.FollowCount
+                                        &nbsp;&nbsp;
+                                        <i class="bx bx-heart"></i>&nbsp;@trainer.Trainer.LikeCount
+                                    </div>
+                                </div>
+                            }
+                        </div>
+                    </div>
+                </div>
+            }
+
+        </div>
+
+    </div>
+</section><!-- End Popular Courses Section -->
+<!-- ======= Trainers Section ======= -->
+<section id="trainers" class="trainers">
+    <div class="container" data-aos="fade-up">
+
+        <div class="row" data-aos="zoom-in" data-aos-delay="100">
+            <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+                <div class="member">
+                    <img src="~/assets/img/trainers/trainer-1.jpg" class="img-fluid" alt="">
+                    <div class="member-content">
+                        <h4>Walter White</h4>
+                        <span>Web Development</span>
+                        <p>
+                            Magni qui quod omnis unde et eos fuga et exercitationem. Odio veritatis perspiciatis quaerat qui aut aut aut
+                        </p>
+                        <div class="social">
+                            <a href=""><i class="bi bi-twitter"></i></a>
+                            <a href=""><i class="bi bi-facebook"></i></a>
+                            <a href=""><i class="bi bi-instagram"></i></a>
+                            <a href=""><i class="bi bi-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+                <div class="member">
+                    <img src="~/assets/img/trainers/trainer-2.jpg" class="img-fluid" alt="">
+                    <div class="member-content">
+                        <h4>Sarah Jhinson</h4>
+                        <span>Marketing</span>
+                        <p>
+                            Repellat fugiat adipisci nemo illum nesciunt voluptas repellendus. In architecto rerum rerum temporibus
+                        </p>
+                        <div class="social">
+                            <a href=""><i class="bi bi-twitter"></i></a>
+                            <a href=""><i class="bi bi-facebook"></i></a>
+                            <a href=""><i class="bi bi-instagram"></i></a>
+                            <a href=""><i class="bi bi-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+                <div class="member">
+                    <img src="~/assets/img/trainers/trainer-3.jpg" class="img-fluid" alt="">
+                    <div class="member-content">
+                        <h4>William Anderson</h4>
+                        <span>Content</span>
+                        <p>
+                            Voluptas necessitatibus occaecati quia. Earum totam consequuntur qui porro et laborum toro des clara
+                        </p>
+                        <div class="social">
+                            <a href=""><i class="bi bi-twitter"></i></a>
+                            <a href=""><i class="bi bi-facebook"></i></a>
+                            <a href=""><i class="bi bi-instagram"></i></a>
+                            <a href=""><i class="bi bi-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</section><!-- End Trainers Section -->
