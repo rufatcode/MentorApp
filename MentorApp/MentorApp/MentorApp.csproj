@@ -27,6 +27,10 @@
     <None Remove="Views\Shared\" />
     <None Remove="Views\Home\" />
     <None Remove="ViewModel\" />
+    <None Remove="ViewComponents\" />
+    <None Remove="Views\Shared\Coponents\Header\" />
+    <None Remove="Views\Shared\Components\" />
+    <None Remove="Views\Shared\Components\Footer\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="DAL\" />
@@ -36,5 +40,9 @@
     <Folder Include="Views\Shared\" />
     <Folder Include="Views\Home\" />
     <Folder Include="ViewModel\" />
+    <Folder Include="ViewComponents\" />
+    <Folder Include="Views\Shared\Components\Header\" />
+    <Folder Include="Views\Shared\Components\" />
+    <Folder Include="Views\Shared\Components\Footer\" />
   </ItemGroup>
 </Project>

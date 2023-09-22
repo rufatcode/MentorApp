@@ -15,6 +15,8 @@ namespace MentorApp.DAL
 		public DbSet<Course> Courses { get; set; }
 		public DbSet<Trainer> Trainers { get; set; }
 		public DbSet<CourseTrainer> CourseTrainers { get; set; }
+		public DbSet<SocialAccount> SocialAccounts { get; set; }
+		public DbSet<Setting> Settings { get; set; }
 		public AppDbContext(DbContextOptions context):base(context)
 		{
 		}

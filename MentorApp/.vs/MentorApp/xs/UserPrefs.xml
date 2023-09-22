@@ -1,22 +1,39 @@
 ﻿<Properties StartupConfiguration="{E87A7DE8-94BC-47F7-A23C-CDEC59BB5C56}|Default">
+  <MonoDevelop.Ide.ItemProperties.MentorApp PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="MentorApp/Views/Shared/Components/Footer/Default.cshtml">
+    <Files>
+      <File FileName="MentorApp/Views/Shared/_Layout.cshtml" Line="50" Column="32" />
+      <File FileName="MentorApp/ViewComponents/HeaderViewComponent.cs" Line="13" Column="45" />
+      <File FileName="MentorApp/Views/Shared/Coponents/Header/Default.cshtml" Line="9" Column="71" />
+      <File FileName="MentorApp/ViewComponents/FooterComponent.cs" Line="10" Column="20" />
+      <File FileName="MentorApp/Views/Shared/Components/Footer/Default.cshtml" Line="17" Column="66" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="MentorApp" expanded="True">
-            <Node name="MentorApp" expanded="True">
+          <Node name="MentorApp">
+            <Node name="MentorApp">
               <Node name="Controllers" expanded="True" />
               <Node name="DAL" expanded="True" />
               <Node name="Models" expanded="True" />
-              <Node name="ViewModel" expanded="True">
-                <Node name="HomeVM.cs" selected="True" />
-              </Node>
-              <Node name="Views" expanded="True">
+              <Node name="ViewComponents" expanded="True" />
+              <Node name="ViewModel" expanded="True" />
+              <Node name="Views">
                 <Node name="Home" expanded="True" />
-                <Node name="Shared" expanded="True" />
+                <Node name="Shared">
+                  <Node name="Components" expanded="True">
+                    <Node name="Footer">
+                      <Node name="Default.cshtml" selected="True" />
+                    </Node>
+                    <Node name="Header" expanded="True" />
+                  </Node>
+                </Node>
               </Node>
             </Node>
           </Node>
@@ -24,8 +41,4 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.ItemProperties.MentorApp PreferredExecutionTarget="/Applications/Google Chrome.app" />
 </Properties>

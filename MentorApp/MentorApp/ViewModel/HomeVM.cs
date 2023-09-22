@@ -12,7 +12,6 @@ namespace MentorApp.ViewModel
 		public List<Feature> Features { get; set; }
 	 	public List<Course> Courses { get; set; }
 		public List<Trainer> Trainers { get; set; }
-		public List<CourseTrainer> CourseTrainers { get; set; }
 		public HomeVM()
 		{
 			Heroes = new();
@@ -20,7 +19,6 @@ namespace MentorApp.ViewModel
 			Features = new();
 			Courses = new();
 			Trainers = new();
-			CourseTrainers = new();
 		}
 	}
 }

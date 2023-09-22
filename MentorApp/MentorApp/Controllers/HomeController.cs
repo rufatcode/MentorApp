@@ -30,7 +30,9 @@ namespace MentorApp.Controllers
             _homeVM.Why_Us = _context.Why_Us.FirstOrDefault();
             _homeVM.IconBoxes = _context.IconBoxes.ToList();
             _homeVM.Features = _context.Features.ToList();
-            return View(_homeVM);
+            _homeVM.Courses = _context.Courses.Include(p => p.CourseTrainers).ThenInclude(ct => ct.Trainer).ToList();
+            _homeVM.Trainers = _context.Trainers.Include(t => t.SocialAccount).ToList();
+           return View(_homeVM);
         }
     }
 }
