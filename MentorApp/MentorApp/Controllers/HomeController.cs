@@ -32,6 +32,7 @@ namespace MentorApp.Controllers
             _homeVM.Features = _context.Features.ToList();
             _homeVM.Courses = _context.Courses.Include(p => p.CourseTrainers).ThenInclude(ct => ct.Trainer).ToList();
             _homeVM.Trainers = _context.Trainers.Include(t => t.SocialAccount).ToList();
+            
            return View(_homeVM);
         }
     }

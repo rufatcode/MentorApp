@@ -12,6 +12,8 @@ namespace MentorApp.ViewModel
 		public List<Feature> Features { get; set; }
 	 	public List<Course> Courses { get; set; }
 		public List<Trainer> Trainers { get; set; }
+		public List<OurService> OurServices { get; set; }
+		public List<UsefulLink> UsefulLinks { get; set; }
 		public HomeVM()
 		{
 			Heroes = new();
@@ -19,6 +21,8 @@ namespace MentorApp.ViewModel
 			Features = new();
 			Courses = new();
 			Trainers = new();
+			OurServices = new();
+			UsefulLinks = new();
 		}
 	}
 }

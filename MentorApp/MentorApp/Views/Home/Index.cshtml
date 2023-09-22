@@ -1,5 +1,7 @@
 ﻿@{
     ViewBag.Title = "Index";
+    int index = 0;
+    int featureIndex = 0;
 }
 @model HomeVM
 
@@ -118,13 +120,14 @@
         <div class="row" data-aos="zoom-in" data-aos-delay="100">
             @foreach (var item in Model.Features)
             {
-                <div class="col-lg-3 col-md-4">
+                <div class="col-lg-3 col-md-4 mt-4 @(@featureIndex==1||@featureIndex==2?"mt-md-0":@featureIndex==3?"mt-lg-0":"")">
                     <div class="icon-box">
                         @Html.Raw(item.Icon)
                         <h3><a href="">@item.Content</a></h3>
                     </div>
                 </div>
-            }
+                    featureIndex++;
+                }
 
            
         </div>
@@ -143,7 +146,7 @@
         <div class="row" data-aos="zoom-in" data-aos-delay="100">
             @foreach (var item in Model.Courses)
             {
-                <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
+                <div class="col-lg-4 col-md-6 d-flex align-items-stretch @(index==0?"mt-4 mt-lg-0":"")">
                     <div class="course-item">
                         <img src="~/assets/img/@item.ImgSrc" class="img-fluid" alt="...">
                         <div class="course-content">
@@ -171,7 +174,8 @@
                         </div>
                     </div>
                 </div>
-            }
+                    index++;
+                }
 
         </div>
 
