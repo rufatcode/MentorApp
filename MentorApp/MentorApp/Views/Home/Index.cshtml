@@ -5,14 +5,11 @@
 }
 @model HomeVM
 
-<section id="hero" class="d-flex justify-content-center align-items-center">
+<section id="hero" class="d-flex justify-content-center align-items-center" >
     <div class="container position-relative" data-aos="zoom-in" data-aos-delay="100">
-        @foreach (var item in Model.Heroes)
-        {
-            <h1>@Html.Raw(item.Title)</h1>
-            <h2>@item.Content</h2>
-            <a href="courses.html" class="btn-get-started">Get Started</a>
-        }
+        <h1>@Html.Raw(Model.Heroes.LastOrDefault().Title)</h1>
+        <h2>@Model.Heroes.LastOrDefault().Content</h2>
+        <a href="courses.html" class="btn-get-started">Get Started</a>
 
     </div>
 </section><!-- End Hero -->

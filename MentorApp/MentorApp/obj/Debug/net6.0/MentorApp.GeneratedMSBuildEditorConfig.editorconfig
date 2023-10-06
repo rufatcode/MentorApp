@@ -16,6 +16,94 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = /Volumes/Mac/AspNet/InjectionAdminPanel/MentorApp/MentorApp
 build_property._RazorSourceGeneratorDebug = 
 
+[/Volumes/Mac/AspNet/InjectionAdminPanel/MentorApp/MentorApp/Areas/AdminArea/Views/Course/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW5BcmVhL1ZpZXdzL0NvdXJzZS9DcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Volumes/Mac/AspNet/InjectionAdminPanel/MentorApp/MentorApp/Areas/AdminArea/Views/Course/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW5BcmVhL1ZpZXdzL0NvdXJzZS9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Volumes/Mac/AspNet/InjectionAdminPanel/MentorApp/MentorApp/Areas/AdminArea/Views/Dashboard/BasicElements.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW5BcmVhL1ZpZXdzL0Rhc2hib2FyZC9CYXNpY0VsZW1lbnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Volumes/Mac/AspNet/InjectionAdminPanel/MentorApp/MentorApp/Areas/AdminArea/Views/Dashboard/Button.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW5BcmVhL1ZpZXdzL0Rhc2hib2FyZC9CdXR0b24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Volumes/Mac/AspNet/InjectionAdminPanel/MentorApp/MentorApp/Areas/AdminArea/Views/Dashboard/Cart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW5BcmVhL1ZpZXdzL0Rhc2hib2FyZC9DYXJ0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Volumes/Mac/AspNet/InjectionAdminPanel/MentorApp/MentorApp/Areas/AdminArea/Views/Dashboard/Documentation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW5BcmVhL1ZpZXdzL0Rhc2hib2FyZC9Eb2N1bWVudGF0aW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Volumes/Mac/AspNet/InjectionAdminPanel/MentorApp/MentorApp/Areas/AdminArea/Views/Dashboard/Icon.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW5BcmVhL1ZpZXdzL0Rhc2hib2FyZC9JY29uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Volumes/Mac/AspNet/InjectionAdminPanel/MentorApp/MentorApp/Areas/AdminArea/Views/Dashboard/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW5BcmVhL1ZpZXdzL0Rhc2hib2FyZC9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Volumes/Mac/AspNet/InjectionAdminPanel/MentorApp/MentorApp/Areas/AdminArea/Views/Dashboard/LockScreen.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW5BcmVhL1ZpZXdzL0Rhc2hib2FyZC9Mb2NrU2NyZWVuLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Volumes/Mac/AspNet/InjectionAdminPanel/MentorApp/MentorApp/Areas/AdminArea/Views/Dashboard/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW5BcmVhL1ZpZXdzL0Rhc2hib2FyZC9Mb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Volumes/Mac/AspNet/InjectionAdminPanel/MentorApp/MentorApp/Areas/AdminArea/Views/Dashboard/Login2.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW5BcmVhL1ZpZXdzL0Rhc2hib2FyZC9Mb2dpbjIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Volumes/Mac/AspNet/InjectionAdminPanel/MentorApp/MentorApp/Areas/AdminArea/Views/Dashboard/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW5BcmVhL1ZpZXdzL0Rhc2hib2FyZC9SZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Volumes/Mac/AspNet/InjectionAdminPanel/MentorApp/MentorApp/Areas/AdminArea/Views/Dashboard/Register2.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW5BcmVhL1ZpZXdzL0Rhc2hib2FyZC9SZWdpc3RlcjIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Volumes/Mac/AspNet/InjectionAdminPanel/MentorApp/MentorApp/Areas/AdminArea/Views/Dashboard/Table.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW5BcmVhL1ZpZXdzL0Rhc2hib2FyZC9UYWJsZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Volumes/Mac/AspNet/InjectionAdminPanel/MentorApp/MentorApp/Areas/AdminArea/Views/Dashboard/Typography.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW5BcmVhL1ZpZXdzL0Rhc2hib2FyZC9UeXBvZ3JhcGh5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Volumes/Mac/AspNet/InjectionAdminPanel/MentorApp/MentorApp/Areas/AdminArea/Views/Hero/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW5BcmVhL1ZpZXdzL0hlcm8vQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Volumes/Mac/AspNet/InjectionAdminPanel/MentorApp/MentorApp/Areas/AdminArea/Views/Hero/Detail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW5BcmVhL1ZpZXdzL0hlcm8vRGV0YWlsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Volumes/Mac/AspNet/InjectionAdminPanel/MentorApp/MentorApp/Areas/AdminArea/Views/Hero/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW5BcmVhL1ZpZXdzL0hlcm8vSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Volumes/Mac/AspNet/InjectionAdminPanel/MentorApp/MentorApp/Areas/AdminArea/Views/Hero/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW5BcmVhL1ZpZXdzL0hlcm8vVXBkYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Volumes/Mac/AspNet/InjectionAdminPanel/MentorApp/MentorApp/Areas/AdminArea/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW5BcmVhL1ZpZXdzL1NoYXJlZC9fTGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Volumes/Mac/AspNet/InjectionAdminPanel/MentorApp/MentorApp/Areas/AdminArea/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW5BcmVhL1ZpZXdzL19WaWV3SW1wb3J0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Volumes/Mac/AspNet/InjectionAdminPanel/MentorApp/MentorApp/Areas/AdminArea/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW5BcmVhL1ZpZXdzL19WaWV3U3RhcnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Volumes/Mac/AspNet/InjectionAdminPanel/MentorApp/MentorApp/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -38,6 +126,14 @@ build_metadata.AdditionalFiles.CssScope =
 
 [/Volumes/Mac/AspNet/InjectionAdminPanel/MentorApp/MentorApp/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Volumes/Mac/AspNet/InjectionAdminPanel/MentorApp/MentorApp/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWNjb3VudC9Mb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Volumes/Mac/AspNet/InjectionAdminPanel/MentorApp/MentorApp/Views/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWNjb3VudC9SZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Volumes/Mac/AspNet/InjectionAdminPanel/MentorApp/MentorApp/Views/Home/Index.cshtml]

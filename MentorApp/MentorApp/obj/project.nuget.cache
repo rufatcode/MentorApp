@@ -1,10 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "uxyescrhSlv7wibhEhJmEDg3k7f2dKOD4kB6ovs6MNev4ADvAe4z9mhbWeJiKDkhiu9TbkZdKHD1IGAoSO3uWw==",
+  "dgSpecHash": "qLT5X21mmShaANWOojAEZedqBYG/8X74GDh40R9U/vSqA7+p1+NVeNP8oEkHLq2z6qCvkp74euHjayk/2bIE5g==",
   "success": true,
   "projectFilePath": "/Volumes/Mac/AspNet/InjectionAdminPanel/MentorApp/MentorApp/MentorApp.csproj",
   "expectedPackageFiles": [
     "/Users/rufat/.nuget/packages/humanizer.core/2.8.26/humanizer.core.2.8.26.nupkg.sha512",
+    "/Users/rufat/.nuget/packages/microsoft.aspnetcore.cryptography.internal/6.0.0/microsoft.aspnetcore.cryptography.internal.6.0.0.nupkg.sha512",
+    "/Users/rufat/.nuget/packages/microsoft.aspnetcore.cryptography.keyderivation/6.0.0/microsoft.aspnetcore.cryptography.keyderivation.6.0.0.nupkg.sha512",
+    "/Users/rufat/.nuget/packages/microsoft.aspnetcore.identity.entityframeworkcore/6.0.0/microsoft.aspnetcore.identity.entityframeworkcore.6.0.0.nupkg.sha512",
     "/Users/rufat/.nuget/packages/microsoft.csharp/4.5.0/microsoft.csharp.4.5.0.nupkg.sha512",
     "/Users/rufat/.nuget/packages/microsoft.data.sqlclient/2.1.4/microsoft.data.sqlclient.2.1.4.nupkg.sha512",
     "/Users/rufat/.nuget/packages/microsoft.data.sqlclient.sni.runtime/2.1.1/microsoft.data.sqlclient.sni.runtime.2.1.1.nupkg.sha512",
@@ -20,6 +23,8 @@
     "/Users/rufat/.nuget/packages/microsoft.extensions.configuration.abstractions/6.0.0/microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512",
     "/Users/rufat/.nuget/packages/microsoft.extensions.dependencyinjection/6.0.0/microsoft.extensions.dependencyinjection.6.0.0.nupkg.sha512",
     "/Users/rufat/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/6.0.0/microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "/Users/rufat/.nuget/packages/microsoft.extensions.identity.core/6.0.0/microsoft.extensions.identity.core.6.0.0.nupkg.sha512",
+    "/Users/rufat/.nuget/packages/microsoft.extensions.identity.stores/6.0.0/microsoft.extensions.identity.stores.6.0.0.nupkg.sha512",
     "/Users/rufat/.nuget/packages/microsoft.extensions.logging/6.0.0/microsoft.extensions.logging.6.0.0.nupkg.sha512",
     "/Users/rufat/.nuget/packages/microsoft.extensions.logging.abstractions/6.0.0/microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512",
     "/Users/rufat/.nuget/packages/microsoft.extensions.options/6.0.0/microsoft.extensions.options.6.0.0.nupkg.sha512",

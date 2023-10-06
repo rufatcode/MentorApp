@@ -1,0 +1,40 @@
+﻿@{
+    ViewBag.Title = "Index";
+}
+@model List<Hero>
+<div class="card">
+    <div class="card-body">
+        <a asp-action="Create" class="my-3 btn btn-outline-primary">Create Hero</a>
+        <h4 class="card-title">Heros Table</h4>
+        <p class="card-description">
+            Add class <code>.table</code>
+        </p>
+        <div class="table-responsive">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Title</th>
+                        <th>Content</th>
+                        <th>Settings</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var hero in Model)
+                    {
+                        <tr>
+                            <td>@Html.Raw(hero.Title.Substring(0,hero.Title.Length/2))</td>
+                            <td>@hero.Content.Substring(0,hero.Content.Length/3)</td>
+                            <td>
+                                <a asp-action="Delete" asp-route-id="@hero.Id"><i class="mdi mdi-delete btn btn-outline-danger "> </i></a>
+                                <a asp-action="Update" asp-route-id="@hero.Id"><i class="mdi mdi-table-edit btn btn-outline-warning"> </i></a>
+                                <a asp-action="Detail" asp-route-id="@hero.Id"> <i class="mdi mdi-account-card-details btn btn-outline-primary"> </i></a>
+                            </td>
+                        </tr>
+                    }
+
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,48 @@
+﻿@{
+    ViewBag.Title="Index";
+}
+@model List<Course>
+<div class="card">
+    <div class="card-body">
+        <a asp-action="Create" class="my-3 btn btn-outline-primary">Create Course</a>
+        <h4 class="card-title">Heros Table</h4>
+        <p class="card-description">
+            Add class <code>.table</code>
+        </p>
+        <div class="table-responsive">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Image</th>
+                        <th>Name</th>
+                        <th>Price</th>
+                        <th>Settings</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var course in Model)
+                    {
+                        <tr>
+                            <td>
+                                <img src="~/assets/img/@course.ImgSrc" />
+                            </td>
+                            <td>
+                                @course.Name
+                            </td>
+                            <td>
+                                @course.Price
+                            </td>
+                            <td>
+                                <a asp-action="Delete" asp-route-id="@course.Id"><i class="mdi mdi-delete btn btn-outline-danger "> </i></a>
+                                <a asp-action="Update" asp-route-id="@course.Id"><i class="mdi mdi-table-edit btn btn-outline-warning"> </i></a>
+                                <a asp-action="Detail" asp-route-id="@course.Id"> <i class="mdi mdi-account-card-details btn btn-outline-primary"> </i></a>
+                            </td>
+                        </tr>
+                    }
+
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

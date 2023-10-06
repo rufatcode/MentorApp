@@ -18,6 +18,7 @@
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="6.0.0" />
   </ItemGroup>
   <ItemGroup>
     <None Remove="DAL\" />
@@ -31,6 +32,19 @@
     <None Remove="Views\Shared\Coponents\Header\" />
     <None Remove="Views\Shared\Components\" />
     <None Remove="Views\Shared\Components\Footer\" />
+    <None Remove="Areas\" />
+    <None Remove="Areas\AdminArea\" />
+    <None Remove="Areas\AdminArea\Controllers\" />
+    <None Remove="Areas\AdminArea\Views\" />
+    <None Remove="Areas\AdminArea\Views\Shared\" />
+    <None Remove="Areas\AdminArea\ViewModels\" />
+    <None Remove="Areas\AdminArea\ViewModels\HeroViewModel\" />
+    <None Remove="Areas\AdminArea\Views\Hero\" />
+    <None Remove="Areas\AdminArea\Views\Dashboard\" />
+    <None Remove="Areas\AdminArea\Views\Course\" />
+    <None Remove="Areas\AdminArea\ViewModels\CourseViewModel\" />
+    <None Remove="ViewModel\AccountVM\" />
+    <None Remove="Views\Account\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="DAL\" />
@@ -44,5 +58,22 @@
     <Folder Include="Views\Shared\Components\Header\" />
     <Folder Include="Views\Shared\Components\" />
     <Folder Include="Views\Shared\Components\Footer\" />
+    <Folder Include="Areas\" />
+    <Folder Include="Areas\AdminArea\" />
+    <Folder Include="Areas\AdminArea\Controllers\" />
+    <Folder Include="Areas\AdminArea\Views\" />
+    <Folder Include="Areas\AdminArea\Views\Shared\" />
+    <Folder Include="Areas\AdminArea\ViewModels\" />
+    <Folder Include="Areas\AdminArea\ViewModels\HeroViewModel\" />
+    <Folder Include="Areas\AdminArea\Views\Hero\" />
+    <Folder Include="wwwroot\admin\" />
+    <Folder Include="Areas\AdminArea\Views\Dashboard\" />
+    <Folder Include="Areas\AdminArea\Views\Course\" />
+    <Folder Include="Areas\AdminArea\ViewModels\CourseViewModel\" />
+    <Folder Include="ViewModel\AccountVM\" />
+    <Folder Include="Views\Account\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Remove="wwwroot\admin\" />
   </ItemGroup>
 </Project>

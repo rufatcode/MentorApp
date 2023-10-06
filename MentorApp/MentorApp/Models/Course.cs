@@ -10,7 +10,9 @@ namespace MentorApp.Models
 		public List<CourseTrainer> CourseTrainers{get;set;}
 		public Course()
 		{
-		}
+			CourseTrainers = new();
+
+        }
 	}
 }
 

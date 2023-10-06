@@ -15,10 +15,15 @@ if (!app.Environment.IsDevelopment())
     app.UseExceptionHandler("/Error");
 }
 app.UseStaticFiles();
-
+app.UseAuthentication();
+app.UseAuthorization();
 app.UseRouting();
 
 app.UseAuthorization();
+app.MapControllerRoute(
+    name:"Areas",
+    pattern:"{area:exists}/{controller=dashbord}/{action=index}/{id?}"
+    );
 app.MapDefaultControllerRoute();
 app.MapRazorPages();
 

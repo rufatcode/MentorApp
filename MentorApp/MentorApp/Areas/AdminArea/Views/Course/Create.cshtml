@@ -1,0 +1,38 @@
+﻿@{
+    ViewBag.Title = "Create";
+}
+
+@model CreateCourseVM
+
+    <div class="col-md-6 grid-margin stretch-card">
+        <div class="card">
+            <div class="card-body">
+                <h4 class="card-title">Create Course</h4>
+                <p class="card-description">
+                    Basic form layout
+                </p>
+                <form class="forms-sample" enctype="multipart/form-data">
+                    <div class="form-group">
+                        <label asp-for="Image"></label>
+                        <input asp-for="Image" class="form-control" id="CourseImage" placeholder="Image">
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Name"></label>
+                        <input asp-for="Name" class="form-control" id="CourseName" placeholder="Name">
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Price"></label>
+                        <input asp-for="Price" class="form-control" id="CoursePrice" placeholder="Price">
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="CourseTrainers" class="d-block"></label>
+                        
+                       
+                    </div>
+                    <button type="submit" class="btn btn-primary mr-2">Submit</button>
+                    <button class="btn btn-light">Cancel</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
